@@ -79,3 +79,60 @@ button:hover{
     border: none;
     margin: 12px;
 }
+
+@media screen and (max-width: 860px){
+    .color-name{
+        font-size: 60px;
+    }
+
+    .heading{
+        font-size: 36px;
+    }
+
+    .box{
+        height: 130px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .color-name{
+        font-size: 36px;
+    }
+
+    .heading{
+        font-size: 26px;
+    }
+
+    button{
+        font-size: 16px;
+    }
+
+    .status{
+        font-size: 26px;
+        display: block;
+    }
+
+    .options{
+        display: block;
+        text-align: center;
+    }
+    .diff{
+        display: flex;
+    }
+
+    .diff button{
+        flex-grow: 1;
+    }
+
+    .reset button{
+        width: 100%;
+        border: 2px black solid;
+    }
+    
+    .box{
+        height: 80px;
+        width: 80px;
+    }
+
+}
